@@ -1,0 +1,91 @@
+<!DOCTIPE html> <!-- es para avisarle que es html5-->
+<html>
+	<head>
+	    <title>Garcon </title> <!-- esto es un comentario-->
+		<meta charset="UTF-8"/><!-- le indica al nav web con tipo de caracteres vamos a trab-->
+		<link href="css/estilo.css" rel="stylesheet"><!-- se vincula el html con css rel es una hoja de estilo-->
+		
+	</head>
+	
+	<body>
+	<header><!-- para titulo -->
+	<div id="logo">
+			<img src= "img/logo.jpeg" alt="logo"></a> 
+	</div>
+	<nav class="menu">
+	<ul> <!-- vamos a poner una lista de elementos -->
+	 <li><!-- marca un elemento de la lista -->
+	<a href="index.html">Inicio</a> </li>
+	
+	<li> <a href="menu.html">Menu</a> </li>
+	<li> <a href="promociones.html">Promociones</a> </li>
+	<li> <a href="carrito.html">Carrito</a> </li>
+	</ul>
+	</nav>
+	
+	</header>
+	
+	<section id="perfil">
+		<img src="img/fotoPizza.jpg">
+		<h1> Pizza </h1>
+		 <p>
+		 Jamón, muzzarella, morrones, rodajas de tomate, huevo duro y aceitunas.
+		 </p>
+	</section>
+	
+	
+	<section id="recuadros">
+		<h2>Hamburguesas</h2>
+		 
+		  <?php
+		  $consulta= " SELECT *
+					   FROM  persona P
+					   WHERE P.nickname in( SELECT A.nickname2
+					                        FROM 
+		  
+		  ?>
+		
+			<section class="recuadro">
+			<img src="img/hamburguesa1.jpg" height="150">
+			<h2>Hamburguesa simple</h2>
+			<p class="parrafo">
+				Hamburguesa de 200g, tomate, lechuga y cebolla.
+			</p>
+	        <a href="" class="boton">Ver </a>
+            <a href="" class="boton">Agregar </a><br><br> 
+	
+	       </section>
+	
+	
+			<section class="recuadro">
+			<img src="img/hamburguesa2.jpg" height="150">
+			<h2>Hamburguesa doble</h2>
+			<p class="parrafo">
+				2 hamburgesas de 250g, tomate, lechuga, cebolla y huevo.
+			</p>
+	        <a href="" class="boton">Ver </a>  
+	        <a href="" class="boton">Agregar </a><br><br>
+	       </section>
+	
+
+			<section class="recuadro">
+			<img src="img/hamburguesa3.jpg" height="150">
+			<h2>Hamburguesa triple</h2>
+			<p class="parrafo">
+				3 hamburguesas de 200g, tomate, lechuga y cebolla.
+			</p>
+	        <a href="" class="boton">Ver </a> 
+             <a href="" class="boton">Agregar </a><br><br>			
+	
+	</section>
+    </section>
+	
+	
+	
+	<footer>
+	  <p> copyright &copy;2021, Garcon </p>
+	<footer>
+	
+	</body>
+
+<html>

@@ -1,0 +1,38 @@
+<!DOCTIPE html>
+<html>
+<head>
+	    <title>Registrate </title> <!-- esto es un comentario-->
+		<meta charset="UTF-8"/><!-- le indica al nav web con tipo de caracteres vamos a trab-->
+		<link href="css/estilo.css" rel="stylesheet"><!-- se vincula el html con css rel es una hoja de estilo-->
+	</head>
+	
+	<body>
+		<header><!-- para titulo -->
+			<div id="logo">
+				<img src= "img/logo.jpeg" alt="logo"></a>
+        	</div>
+        </header>
+	
+	<!--action es a donde se va a enviar los datos que guardemos en el formulario-->
+	<section id="formulario"> 
+		<form name="Nuevo usuario"method="POST" action="php/IniciarSesion.php">
+			
+			Nickname:<br>
+			<input type="text" name="nickname" placeholder="Ingrese su Nickname" required><br>
+			
+			Contraseña:<br>
+			<input type="password" name="contraseña" autocomplete="off" placeholder="Ingrese su Contraseña" required><br>
+		
+		<input type="submit" name="enviar" class="boton" value="Iniciar Sesion">
+		<input type="reset" class="boton" value="Borrar">
+		<hr>
+		
+		</form>
+		
+	</section>
+	
+	</body>
+	<footer>
+	  <p> copyright &copy;2021, Garcon </p>
+	</footer>
+	</html>
